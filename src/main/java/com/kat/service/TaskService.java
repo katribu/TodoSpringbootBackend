@@ -48,7 +48,7 @@ public class TaskService {
 
     public String deleteTask(String taskId){
         repository.deleteById(taskId);
-        return  taskId + " Task deleted from DB";
+        return  taskId + " task deleted from DB";
     }
 
 }
